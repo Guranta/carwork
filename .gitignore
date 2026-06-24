@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# DB / runtime
+*.sqlite3
+postgres_data/
+redis_data/
+minio_data/
+grafana_data/
+prometheus_data/
+loki_data/
+
+# Node / frontend
+node_modules/
+web/dist/
+h5/dist/
+mp/dist/
+web/.vite/
+h5/.vite/
